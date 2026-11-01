@@ -1,0 +1,11 @@
+def handle_obstacle(obstacle):
+    if obstacle.is_box():
+        dragon.smash(obstacle)
+    else:
+        dragon.fire_at(obstacle)
+handle_obstacle(obstacle_1)
+handle_obstacle(obstacle_2)
+handle_obstacle(obstacle_3)
+handle_obstacle(obstacle_4)
+handle_obstacle(obstacle_5)
+handle_obstacle(obstacle_6)
